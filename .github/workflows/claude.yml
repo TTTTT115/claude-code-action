@@ -33,6 +33,9 @@ jobs:
         id: claude
         uses: Akira-Papa/claude-code-action@beta
         with:
+          # Specify the latest Claude 4 model
+          model: "claude-sonnet-4-20250514"
+
           # Option 1: Use Anthropic API key (commented out for OAuth)
           # anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           
